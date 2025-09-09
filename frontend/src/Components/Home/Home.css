@@ -1,0 +1,53 @@
+/* Container */
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .home-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph */
+  .intro-text {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 10px auto;
+    line-height: 1.6;
+  }
+  
+  /* Slider */
+  .slider {
+    position: relative;
+    max-width: 100000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }   
+  
+  /* Image */
+  .slider-img {
+    width: 800px;;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Slide animation (drift left to right) */
+  .slide {
+    animation: slideEffect 4s ease-in-out;
+  }
+  
+  @keyframes slideEffect {
+    from {
+      transform: translateX(100%); /* start right */
+      opacity: 0.1; /* start invisible */
+    }
+    to {
+      transform: translateX(0); /* move into place */
+      opacity: 100%;/* become visible */
+    }
+  }
+  
