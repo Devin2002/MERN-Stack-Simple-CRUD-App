@@ -91,12 +91,15 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"New item"}' http:/
 </code></pre>
 
   <h2 id="screenshots">Screenshots</h2>
-    <p>Add screenshots here:</p>
-    <img src="Screenshots/Screenshot 2025-09-09 125748.png" alt="App Home"  />
-    <img src="Screenshots/Screenshot 2025-09-09 125824.png" alt="AddUser" />
-    <img src="Screenshots/Screenshot 2025-09-09 125906.png" alt="Edit User" />
-    <img src="Screenshots/Screenshot 2025-09-09 130228.png" alt="Postman" />
-
+    <p> Home page </p>
+  <img src="Screenshots/Screenshot 2025-09-09 125748.png" alt="App Home"  />
+      <p> Add User page </p>
+  <img src="Screenshots/Screenshot 2025-09-09 125824.png" alt="AddUser" />
+      <p> User Details Edit page </p>
+  <img src="Screenshots/Screenshot 2025-09-09 125906.png" alt="Edit User" />
+      <p> RESTful API Testing  </p>
+  <img src="Screenshots/Screenshot 2025-09-09 130228.png" alt="Postman" />
+  
   <h2 id="roadmap">Project Roadmap</h2>
     <ul>
       <li>User authentication (JWT)</li>
