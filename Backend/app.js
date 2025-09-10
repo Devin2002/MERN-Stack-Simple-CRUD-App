@@ -10,7 +10,7 @@ app.use(cors()); // Middleware to enable CORS
 app.use(express.json()); // Middleware to parse JSON data
 app.use("/user",router);
 
-mongoose.connect("mongodb+srv://admin:EdECg9hsIltdq7OI@cluster0.4ydnymi.mongodb.net/")
+mongoose.connect("ADD DATABASE LINK")
 .then(() => {console.log("Connected to MongoDB")})
 .then(() => {
     app.listen(5000)
