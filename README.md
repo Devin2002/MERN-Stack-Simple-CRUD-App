@@ -3,85 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MERN-Stack-Simple-CRUD-App</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #24292e;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    nav {
-      margin-top: 10px;
-    }
-    nav a {
-      color: #58a6ff;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    h2 {
-      border-bottom: 2px solid #eaeaea;
-      padding-bottom: 5px;
-      margin-top: 30px;
-      color: #24292e;
-    }
-    code, pre {
-      background: #f6f8fa;
-      padding: 5px 8px;
-      border-radius: 5px;
-      font-size: 0.95rem;
-    }
-    pre {
-      overflow-x: auto;
-      padding: 15px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 15px 0;
-    }
-    table, th, td {
-      border: 1px solid #ddd;
-    }
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin: 10px 0;
-    }
-    footer {
-      text-align: center;
-      margin: 40px 0 20px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  
 </head>
 <body>
   <header>
@@ -170,8 +92,10 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"New item"}' http:/
 
   <h2 id="screenshots">Screenshots</h2>
     <p>Add screenshots here:</p>
-    <img src="./screenshots/home.png" alt="App Home" />
-    <img src="./screenshots/edit.png" alt="Edit Item" />
+    <img src="Screenshots/Screenshot 2025-09-09 125748.png" alt="App Home"  />
+    <img src="Screenshots/Screenshot 2025-09-09 125824.png" alt="AddUser" />
+    <img src="Screenshots/Screenshot 2025-09-09 125906.png" alt="Edit User" />
+    <img src="Screenshots/Screenshot 2025-09-09 130228.png" alt="Postman" />
 
   <h2 id="roadmap">Project Roadmap</h2>
     <ul>
